@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TradeTech AI
 
 AI-powered platform for traders and developers.
@@ -17,3 +18,6 @@ This project helps me improve:
 
 ## Progress Log
 - Day 1: Environment setup & Git initialized
+=======
+# tradetech-ai
+>>>>>>> 8d976d919c75364e567ad92a217b68d259edf68d
