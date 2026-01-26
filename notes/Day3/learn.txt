@@ -1,0 +1,6 @@
+npm init
+--------
+
+creates package.json file to manage your project's metadata and dependencies.
+
+Adding the -y flag (which stands for yes) tells npm to skip all those questions and just use the default settings.
