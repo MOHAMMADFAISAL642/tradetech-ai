@@ -1,0 +1,382 @@
+{
+  "history": [
+    {
+      "symbol": "NIFTY",
+      "price": 22584,
+      "trend": "Bullish",
+      "time": "11:55:30 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 23078,
+      "trend": "Bullish",
+      "time": "11:55:53 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 23928,
+      "trend": "Bullish",
+      "time": "11:56:16 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 23953,
+      "trend": "Bullish",
+      "time": "11:56:19 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 24032,
+      "trend": "Bullish",
+      "time": "11:56:20 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 24285,
+      "trend": "Bullish",
+      "time": "11:56:22 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 25212,
+      "trend": "Bullish",
+      "time": "11:56:24 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 25516,
+      "trend": "Bullish",
+      "time": "11:56:25 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 26500,
+      "trend": "Bullish",
+      "time": "11:56:28 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 26943,
+      "trend": "Bullish",
+      "time": "11:56:30 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 27009,
+      "trend": "Bullish",
+      "time": "11:56:31 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 27408,
+      "trend": "Bullish",
+      "time": "11:56:33 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 28332,
+      "trend": "Bullish",
+      "time": "11:56:34 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 28481,
+      "trend": "Bullish",
+      "time": "11:56:36 AM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22713,
+      "trend": "Bullish",
+      "time": "1:28:35 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22815,
+      "trend": "Bullish",
+      "time": "2:01:20 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22912,
+      "trend": "Bullish",
+      "time": "2:01:21 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22691,
+      "trend": "Bearish",
+      "time": "2:01:22 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22269,
+      "trend": "Bearish",
+      "time": "2:01:25 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22557,
+      "trend": "Bullish",
+      "time": "2:11:57 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22337,
+      "trend": "Bearish",
+      "time": "2:12:11 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22220,
+      "trend": "Bearish",
+      "time": "2:14:51 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22399,
+      "trend": "Bullish",
+      "time": "2:14:51 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22842,
+      "trend": "Bullish",
+      "time": "2:14:52 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22044,
+      "trend": "Bearish",
+      "time": "2:14:53 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22067,
+      "trend": "Bullish",
+      "time": "2:14:56 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22534,
+      "trend": "Bullish",
+      "time": "2:14:56 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22878,
+      "trend": "Bullish",
+      "time": "2:14:56 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22158,
+      "trend": "Bearish",
+      "time": "2:14:57 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22730,
+      "trend": "Bullish",
+      "time": "2:14:57 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22166,
+      "trend": "Bearish",
+      "time": "2:14:57 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22828,
+      "trend": "Bullish",
+      "time": "2:14:58 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22938,
+      "trend": "Bullish",
+      "time": "2:24:47 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22615,
+      "trend": "Bearish",
+      "time": "2:53:49 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22000,
+      "trend": "Bearish",
+      "time": "2:53:49 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22741,
+      "trend": "Bullish",
+      "time": "2:53:49 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22551,
+      "trend": "Bearish",
+      "time": "2:53:49 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22157,
+      "trend": "Bearish",
+      "time": "2:53:50 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22296,
+      "trend": "Bullish",
+      "time": "2:53:50 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22451,
+      "trend": "Bullish",
+      "time": "2:53:50 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22990,
+      "trend": "Bullish",
+      "time": "2:53:50 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22480,
+      "trend": "Bearish",
+      "time": "2:53:50 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22136,
+      "trend": "Bearish",
+      "time": "2:53:50 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22428,
+      "trend": "Bullish",
+      "time": "2:53:51 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22354,
+      "trend": "Bearish",
+      "time": "2:53:51 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22781,
+      "trend": "Bullish",
+      "time": "2:53:51 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22651,
+      "trend": "Bearish",
+      "time": "2:53:51 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22105,
+      "trend": "Bearish",
+      "time": "2:53:52 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22661,
+      "trend": "Bullish",
+      "time": "2:53:52 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22328,
+      "trend": "Bearish",
+      "time": "2:53:52 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22688,
+      "trend": "Bullish",
+      "time": "2:53:52 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22214,
+      "trend": "Bearish",
+      "time": "2:53:52 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22655,
+      "trend": "Bullish",
+      "time": "2:53:53 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22683,
+      "trend": "Bullish",
+      "time": "2:53:53 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22545,
+      "trend": "Bearish",
+      "time": "2:53:53 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22663,
+      "trend": "Bullish",
+      "time": "2:53:53 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22629,
+      "trend": "Bearish",
+      "time": "2:54:05 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22768,
+      "trend": "Bullish",
+      "time": "2:54:05 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22530,
+      "trend": "Bearish",
+      "time": "2:54:05 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22995,
+      "trend": "Bullish",
+      "time": "2:54:05 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22837,
+      "trend": "Bearish",
+      "time": "2:54:05 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22115,
+      "trend": "Bearish",
+      "time": "2:54:06 PM"
+    },
+    {
+      "symbol": "NIFTY",
+      "price": 22903,
+      "trend": "Bullish",
+      "time": "2:54:06 PM"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # TradeTech AI
 
 AI-powered platform for traders and developers.

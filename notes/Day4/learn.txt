@@ -1,0 +1,1 @@
+CTRL + SHIFT + R  => Hard Refresh Browser, On clicking F5, Refresh with caching done

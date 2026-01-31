@@ -1,0 +1,6 @@
+
+To update files in github
+--------------------------
+git add .
+git commit -m "What I did today"
+git push

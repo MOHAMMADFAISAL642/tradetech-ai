@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        let chart;
+
+        async function fetchStock() {
+            try {
+                const res = await fetch("/api/stock");
+                const data = await res.json();
+
+                document.getElementById("symbol").innerText = data.symbol;
+                document.getElementById("price").innerText = data.price;
+                document.getElementById("trend").innerText = data.trend;
+                document.getElementById("time").innerText = data.time;
+
+                await loadHistory();
+            } catch (err) {
+                console.error("Error fetching stock:", err);
+            }
+        }
+
+        async function loadHistory() {
+            const res = await fetch("/api/history");
+            const history = await res.json();
+
+            const labels = history.map(item => item.time);
+            const prices = history.map(item => item.price);
+
+            drawChart(labels, prices);
+            updateHistoryList(history);
+        }
+
+        function drawChart(labels, prices) {
+            const ctx = document.getElementById("priceChart").getContext("2d");
+
+            if (chart) chart.destroy();
+
+            chart = new Chart(ctx, {
+                type: "line",
+                data: {
+                    labels,
+                    datasets: [{
+                        label: "NIFTY Price",
+                        data: prices,
+                        borderColor: "green",
+                        fill: false,
+                        tension: 0.3
+                    }]
+                },
+                options: { responsive: true }
+            });
+        }
+
+        function updateHistoryList(history) {
+            const list = document.getElementById("history");
+            list.innerHTML = "";
+
+            history.slice(-10).reverse().forEach(item => {
+                const li = document.createElement("li");
+                li.textContent = `${item.time} — ₹${item.price} (${item.trend})`;
+                list.appendChild(li);
+            });
+        }
+
+        // Auto load when page opens
+        fetchStock();
+    </script>
+
+</head>
+
+<body>
+    <h1>📈 TradeTech AI — Live Stock Dashboard</h1>
+
+    <div>
+        <p><strong>Symbol:</strong> <span id="symbol">--</span></p>
+        <p><strong>Price:</strong> ₹<span id="price">--</span></p>
+        <p><strong>Trend:</strong> <span id="trend">--</span></p>
+        <p><strong>Last Updated:</strong> <span id="time">--</span></p>
+    </div>
+
+    <button onclick="fetchStock()">Refresh Price</button>
+
+    <h2>📜 Price History</h2>
+    <ul id="history"></ul>
+    <h2>📊 Price Chart</h2>
+    <canvas id="priceChart" width="400" height="200"></canvas>
+</body>
+
+</html>
